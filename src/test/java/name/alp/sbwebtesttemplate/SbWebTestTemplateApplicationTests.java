@@ -32,7 +32,7 @@ class SbWebTestTemplateApplicationTests {
     @Test()
     @Tag("UnitTest")
     @DisplayName("POST /api/classification")
-    public void postClassification() {
+    void postClassification() {
         Classification classification = new Classification(
                 "0201", "02", "Suspicious behaviour", "PS", "0201", 1
         );
